@@ -1,2 +1,0 @@
-B.txt
-ich bin B und verlinke link:data/testdocs/Pinguine.txt niemanden, außer link:data/testdocs/A.txt link:data/testdocs/C.txt und link:data/testdocs/D.txt

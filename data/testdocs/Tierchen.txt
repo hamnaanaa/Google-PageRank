@@ -1,2 +1,0 @@
-Tierchen.txt
-tierchen sind kleine link:data/testdocs/A.txt tiere

@@ -1,3 +1,0 @@
-A.txt
-blablabla link:data/testdocs/B.txt tralalalal link:data/testdocs/C.txt tetsetse ende
-I eat apples and bananas!

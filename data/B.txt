@@ -1,0 +1,2 @@
+B.txt
+ich bin B und verlinke link:Pinguine.txt niemanden, ausser link:A.txt link:C.txt und link:D.txt Der Hochbau ist das Teilgebiet des Bauwesens, das sich mit der Planung und Errichtung von Bauwerken befasst, die mehrheitlich oberhalb der Gelaendelinie liegen (z. B. Gebaeude wie Wohnhaeuser oder Tuerme). Bauwerke, die sich mehrheitlich unterhalb oder auf der Gelaendelinie befinden, werden dem Tiefbau zugeordnet.

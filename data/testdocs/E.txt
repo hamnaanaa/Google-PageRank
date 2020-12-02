@@ -1,2 +1,0 @@
-E.txt
-pinguine link:data/testdocs/Pinguine.txt verlinken ueblich nur auf auf link:data/testdocs/C.txt

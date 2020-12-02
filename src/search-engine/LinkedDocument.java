@@ -73,7 +73,7 @@ public class LinkedDocument extends Document {
      * specified file.
      */
     public static LinkedDocument createLinkedDocumentFromFile(String fileName) {
-        String[] fileContent = Terminal.readFile(fileName);
+        String[] fileContent = Terminal.readFile(Webserver.getPATH() + fileName);
 
         if (fileContent != null && fileContent.length >= 2) {
             String title = fileContent[0];
@@ -285,5 +285,10 @@ public class LinkedDocument extends Document {
      */
     public LinkedDocumentCollection getIncomingLinks() {
         return this.incomingLinks;
+    }
+
+    @Override
+    public String toString() {
+        return "Document: '" + id + "'";
     }
 }

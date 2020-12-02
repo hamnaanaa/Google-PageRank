@@ -62,10 +62,15 @@ public class WebserverThread extends Thread {
         return new HttpResponse(HttpStatus.Ok, body);
     }
 
+    /**
+     * This function assumes all files lie in PATH/...
+     * For PATH check WebServer constants
+     * @see Webserver
+     */
     private HttpResponse handleFileRequest(String fileName) {
         if (fileName.contains("/"))
             return new HttpResponse(HttpStatus.Forbidden);
-        String[] fileContents = Terminal.readFile(fileName);
+        String[] fileContents = Terminal.readFile(Webserver.getPATH() + fileName);
         if (fileContents == null)
             return new HttpResponse(HttpStatus.NotFound);
         if (fileContents.length != 2)
@@ -78,7 +83,7 @@ public class WebserverThread extends Thread {
         String requestLine = in.readLine();
         if (requestLine == null)
             return;
-        in.lines().takeWhile(l -> !l.equals("")).count();
+        in.lines().takeWhile(l -> !l.equals("")).count();   // for debugging
 
         System.out.println("=> Request header received");
 

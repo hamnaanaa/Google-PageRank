@@ -164,4 +164,9 @@ public class WordCount {
     public void setNormalizedWeight(double normalizedWeight) {
         this.normalizedWeight = normalizedWeight;
     }
+
+    @Override
+    public String toString() {
+        return this.getWord() + ":" + this.getCount();
+    }
 }

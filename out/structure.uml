@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="2412.590252109002" y="2450.5">WebserverThread</node>
+    <node x="2261.315871628371" y="2784.5">Webserver</node>
+    <node x="10.5" y="1942.5">Review</node>
+    <node x="643.6375223850223" y="1577.0">Document</node>
+    <node x="1212.0676013338518" y="668.0">DocumentCollection</node>
+    <node x="1482.1623376623377" y="2784.5">Counter</node>
+    <node x="1668.7248376623377" y="3092.0">TestItServer</node>
+    <node x="975.2284314759315" y="2378.0">LinkedDocument</node>
+    <node x="2776.220448486699" y="1638.0">InvalidRequestException</node>
+    <node x="2592.220448486699" y="2015.0">HttpRequest</node>
+    <node x="343.1194430569424" y="2784.5">TestIt</node>
+    <node x="1376.8438160913163" y="1931.0">LinkedDocumentCollection</node>
+    <node x="3277.220448486699" y="1649.5">HttpStatus</node>
+    <node x="975.8176013338518" y="1200.0">WordCountsArray</node>
+    <node x="3175.928781820032" y="2002.5">HttpResponse</node>
+    <node x="464.4463892126396" y="0.0">Terminal</node>
+    <node x="391.6375223850225" y="764.0">Date</node>
+    <node x="1034.2342680005186" y="227.0">DocumentCollectionCell</node>
+    <node x="1389.4123376623377" y="2961.0">TestItThread</node>
+    <node x="1745.8438160913163" y="2724.0">SynchronizedLdcWrapper</node>
+    <node x="887.7284314759315" y="764.0">WordCount</node>
+    <node x="2189.595448486699" y="2039.0">TemplateProcessor</node>
+    <node x="210.20833333333326" y="1211.5">Author</node>
+    <node x="2516.220448486699" y="1674.0">HttpMethod</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Webserver" target="LinkedDocument">
+      <point x="-76.28571428571422" y="-28.0" />
+      <point x="2274.030157342657" y="2664.0" />
+      <point x="1466.9784314759315" y="2664.0" />
+      <point x="210.75" y="113.0" />
+    </edge>
+    <edge source="WebserverThread" target="Terminal">
+      <point x="-70.375" y="-40.5" />
+      <point x="2623.715252109002" y="2268.0" />
+      <point x="2505.720448486699" y="2268.0" />
+      <point x="2505.720448486699" y="628.0" />
+      <point x="680.4463892126396" y="628.0" />
+      <point x="96.0" y="304.0" />
+    </edge>
+    <edge source="DocumentCollectionCell" target="Document">
+      <point x="-189.20000000000005" y="77.0" />
+      <point x="1081.5342680005185" y="638.0" />
+      <point x="850.8534314759315" y="638.0" />
+      <point x="850.8534314759315" y="1547.0" />
+      <point x="815.0466132941133" y="1547.0" />
+      <point x="-38.09090909090901" y="-137.0" />
+    </edge>
+    <edge source="HttpResponse" target="HttpStatus">
+      <point x="-71.25" y="-77.0" />
+      <point x="3247.178781820032" y="1911.0" />
+      <point x="3315.553781820032" y="1911.0" />
+      <point x="-76.66666666666674" y="64.5" />
+    </edge>
+    <edge source="WebserverThread" target="HttpResponse">
+      <point x="164.20833333333326" y="-40.5" />
+      <point x="2858.298585442335" y="2338.0" />
+      <point x="3247.178781820032" y="2338.0" />
+      <point x="-71.25" y="77.0" />
+    </edge>
+    <edge source="SynchronizedLdcWrapper" target="LinkedDocumentCollection">
+      <point x="-51.125" y="-88.5" />
+      <point x="1899.2188160913163" y="2674.0" />
+      <point x="1648.315871628371" y="2674.0" />
+      <point x="1648.315871628371" y="2358.0" />
+      <point x="1577.613046860547" y="2358.0" />
+      <point x="26.769230769230717" y="148.5" />
+    </edge>
+    <edge source="Webserver" target="TemplateProcessor">
+      <point x="25.428571428571445" y="-28.0" />
+      <point x="2375.7444430569426" y="2624.0" />
+      <point x="2298.720448486699" y="2624.0" />
+      <point x="-36.375" y="40.5" />
+    </edge>
+    <edge source="Document" target="Author">
+      <point x="-190.4545454545455" y="-137.0" />
+      <point x="662.6829769304768" y="1547.0" />
+      <point x="448.20833333333326" y="1547.0" />
+      <point x="68.0" y="137.0" />
+    </edge>
+    <edge source="HttpRequest" target="HttpMethod">
+      <point x="-84.0" y="-64.5" />
+      <point x="2634.220448486699" y="1911.0" />
+      <point x="2636.220448486699" y="1911.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="WebserverThread" target="HttpRequest">
+      <point x="23.458333333333485" y="-40.5" />
+      <point x="2717.5485854423355" y="2248.0" />
+      <point x="2655.220448486699" y="2248.0" />
+      <point x="-63.0" y="64.5" />
+    </edge>
+    <edge source="TestItThread" target="SynchronizedLdcWrapper">
+      <point x="94.5" y="-40.5" />
+      <point x="1672.9123376623377" y="2931.0" />
+      <point x="1796.9688160913163" y="2931.0" />
+      <point x="-153.375" y="88.5" />
+    </edge>
+    <edge source="DocumentCollection" target="Document">
+      <point x="-100.57142857142844" y="221.0" />
+      <point x="1287.4961727624234" y="1170.0" />
+      <point x="965.3176013338517" y="1170.0" />
+      <point x="965.3176013338517" y="1527.0" />
+      <point x="929.3193405668405" y="1527.0" />
+      <point x="76.18181818181824" y="-137.0" />
+    </edge>
+    <edge source="LinkedDocument" target="Terminal">
+      <point x="-153.27272727272737" y="-113.0" />
+      <point x="1102.9557042032043" y="2338.0" />
+      <point x="633.1375223850223" y="2338.0" />
+      <point x="48.0" y="304.0" />
+    </edge>
+    <edge source="Webserver" target="LinkedDocumentCollection">
+      <point x="-25.42857142857156" y="-28.0" />
+      <point x="2324.8873001997995" y="2644.0" />
+      <point x="2224.70152990528" y="2644.0" />
+      <point x="2224.70152990528" y="2328.0" />
+      <point x="1657.9207391682394" y="2328.0" />
+      <point x="107.0769230769231" y="148.5" />
+    </edge>
+    <edge source="SynchronizedLdcWrapper" target="Document">
+      <point x="153.375" y="-88.5" />
+      <point x="2103.7188160913165" y="2704.0" />
+      <point x="2175.815871628371" y="2704.0" />
+      <point x="2175.815871628371" y="1871.0" />
+      <point x="1032.7089509564507" y="1871.0" />
+      <point x="179.57142857142856" y="137.0" />
+    </edge>
+    <edge source="LinkedDocument" target="LinkedDocumentCollection">
+      <point x="51.09090909090912" y="-113.0" />
+      <point x="1307.3193405668408" y="2338.0" />
+      <point x="1390.2284314759318" y="2338.0" />
+      <point x="-160.61538461538453" y="148.5" />
+    </edge>
+    <edge source="Document" target="WordCountsArray">
+      <point x="114.27272727272737" y="-137.0" />
+      <point x="967.4102496577497" y="1537.0" />
+      <point x="1018.0676013338518" y="1537.0" />
+      <point x="-211.25" y="148.5" />
+    </edge>
+    <edge source="LinkedDocumentCollection" target="LinkedDocument">
+      <point x="-80.30769230769238" y="148.5" />
+      <point x="1470.536123783624" y="2358.0" />
+      <point x="1460.592067839568" y="2358.0" />
+      <point x="204.36363636363637" y="-113.0" />
+    </edge>
+    <edge source="LinkedDocumentCollection" target="DocumentCollection">
+      <point x="0.0" y="-148.5" />
+      <point x="1550.8438160913163" y="1911.0" />
+      <point x="1603.3438160913163" y="1911.0" />
+      <point x="1603.3438160913163" y="1180.0" />
+      <point x="1488.6390299052805" y="1180.0" />
+      <point x="100.57142857142867" y="221.0" />
+    </edge>
+    <edge source="TestItServer" target="TestItThread">
+      <point x="-66.75" y="-28.0" />
+      <point x="1690.9748376623377" y="3072.0" />
+      <point x="1483.9123376623377" y="3072.0" />
+      <point x="-94.5" y="40.5" />
+    </edge>
+    <edge source="TestItServer" target="SynchronizedLdcWrapper">
+      <point x="22.25" y="-28.0" />
+      <point x="1779.9748376623377" y="3062.0" />
+      <point x="2047.0938160913163" y="3062.0" />
+      <point x="2047.0938160913163" y="2941.0" />
+      <point x="2001.4688160913163" y="2941.0" />
+      <point x="51.125" y="88.5" />
+    </edge>
+    <edge source="SynchronizedLdcWrapper" target="LinkedDocument">
+      <point x="-153.375" y="-88.5" />
+      <point x="1796.9688160913163" y="2684.0" />
+      <point x="1326.4784314759315" y="2684.0" />
+      <point x="70.25" y="113.0" />
+    </edge>
+    <edge source="HttpRequest" target="InvalidRequestException">
+      <point x="84.0" y="-64.5" />
+      <point x="2802.220448486699" y="1911.0" />
+      <point x="2896.470448486699" y="1911.0" />
+      <point x="-120.25" y="76.0" />
+    </edge>
+    <edge source="TestItThread" target="Counter">
+      <point x="-94.5" y="-40.5" />
+      <point x="1483.9123376623377" y="2941.0" />
+      <point x="1508.1623376623377" y="2941.0" />
+      <point x="-26.0" y="28.0" />
+    </edge>
+    <edge source="LinkedDocument" target="WordCountsArray">
+      <point x="0.0" y="-113.0" />
+      <point x="1256.2284314759315" y="2358.0" />
+      <point x="1291.5961352998852" y="2358.0" />
+      <point x="1291.5961352998852" y="1557.0" />
+      <point x="1356.0676013338518" y="1557.0" />
+      <point x="126.75" y="148.5" />
+    </edge>
+    <edge source="LinkedDocument" target="Date">
+      <point x="-204.3636363636365" y="-113.0" />
+      <point x="1051.864795112295" y="2348.0" />
+      <point x="584.6249999999998" y="2348.0" />
+      <point x="584.6249999999998" y="1180.0" />
+      <point x="540.1375223850225" y="1180.0" />
+      <point x="33.0" y="125.0" />
+    </edge>
+    <edge source="Review" target="Document">
+      <point x="100.75" y="-137.0" />
+      <point x="312.75" y="1881.0" />
+      <point x="673.5660938135937" y="1881.0" />
+      <point x="-179.57142857142856" y="137.0" />
+    </edge>
+    <edge source="Document" target="Date">
+      <point x="-76.18181818181813" y="-137.0" />
+      <point x="776.9557042032042" y="1537.0" />
+      <point x="839.8534314759315" y="1537.0" />
+      <point x="839.8534314759315" y="1160.0" />
+      <point x="606.1375223850225" y="1160.0" />
+      <point x="99.0" y="125.0" />
+    </edge>
+    <edge source="Review" target="Date">
+      <point x="-100.75" y="-137.0" />
+      <point x="111.25" y="1911.0" />
+      <point x="154.30418905168926" y="1911.0" />
+      <point x="154.30418905168926" y="1170.0" />
+      <point x="441.1375223850225" y="1170.0" />
+      <point x="-66.0" y="125.0" />
+    </edge>
+    <edge source="LinkedDocument" target="Document">
+      <point x="-102.18181818181824" y="-113.0" />
+      <point x="1154.0466132941133" y="2328.0" />
+      <point x="1038.0789649702153" y="2328.0" />
+      <point x="1038.0789649702153" y="1901.0" />
+      <point x="853.1375223850223" y="1901.0" />
+      <point x="0.0" y="137.0" />
+    </edge>
+    <edge source="LinkedDocumentCollection" target="Document">
+      <point x="-116.0" y="-148.5" />
+      <point x="1434.8438160913163" y="1881.0" />
+      <point x="972.851808099308" y="1881.0" />
+      <point x="119.71428571428567" y="137.0" />
+    </edge>
+    <edge source="TestIt" target="LinkedDocument">
+      <point x="14.833333333333371" y="-28.0" />
+      <point x="446.95277639027574" y="2684.0" />
+      <point x="1045.4784314759315" y="2684.0" />
+      <point x="-210.75" y="113.0" />
+    </edge>
+    <edge source="TestItThread" target="WordCountsArray">
+      <point x="31.5" y="-40.5" />
+      <point x="1609.9123376623377" y="2921.0" />
+      <point x="1735.3438160913163" y="2921.0" />
+      <point x="1735.3438160913163" y="1557.0" />
+      <point x="1440.5676013338518" y="1557.0" />
+      <point x="211.25" y="148.5" />
+    </edge>
+    <edge source="WebserverThread" target="LinkedDocumentCollection">
+      <point x="-258.0416666666665" y="-40.5" />
+      <point x="2436.0485854423355" y="2308.0" />
+      <point x="1684.68996993747" y="2308.0" />
+      <point x="133.8461538461538" y="148.5" />
+    </edge>
+    <edge source="Date" target="Terminal">
+      <point x="0.0" y="-125.0" />
+      <point x="507.1375223850225" y="648.0" />
+      <point x="584.4463892126396" y="648.0" />
+      <point x="0.0" y="304.0" />
+    </edge>
+    <edge source="Author" target="Date">
+      <point x="0.0" y="-137.0" />
+      <point x="380.20833333333326" y="1180.0" />
+      <point x="474.1375223850225" y="1180.0" />
+      <point x="-33.0" y="125.0" />
+    </edge>
+    <edge source="Webserver" target="WebserverThread">
+      <point x="50.85714285714289" y="-28.0" />
+      <point x="2401.173014485514" y="2694.0" />
+      <point x="2553.340252109002" y="2694.0" />
+      <point x="-140.75" y="40.5" />
+    </edge>
+    <edge source="WebserverThread" target="TemplateProcessor">
+      <point x="-164.20833333333303" y="-40.5" />
+      <point x="2529.881918775669" y="2288.0" />
+      <point x="2371.470448486699" y="2288.0" />
+      <point x="36.375" y="40.5" />
+    </edge>
+    <edge source="DocumentCollection" target="WordCountsArray">
+      <point x="0.0" y="221.0" />
+      <point x="1388.0676013338518" y="1180.0" />
+      <point x="1356.0676013338518" y="1180.0" />
+      <point x="126.75" y="-148.5" />
+    </edge>
+    <edge source="TestIt" target="Terminal">
+      <point x="-74.16666666666674" y="-28.0" />
+      <point x="357.95277639027563" y="2704.0" />
+      <point x="0.0" y="2704.0" />
+      <point x="0.0" y="628.0" />
+      <point x="488.4463892126396" y="628.0" />
+      <point x="-96.0" y="304.0" />
+    </edge>
+    <edge source="LinkedDocument" target="Author">
+      <point x="-255.4545454545456" y="-113.0" />
+      <point x="1000.773886021386" y="2358.0" />
+      <point x="445.9999999999998" y="2358.0" />
+      <point x="445.9999999999998" y="1557.0" />
+      <point x="380.20833333333326" y="1557.0" />
+      <point x="0.0" y="137.0" />
+    </edge>
+    <edge source="TestItThread" target="LinkedDocument">
+      <point x="-157.5" y="-40.5" />
+      <point x="1420.9123376623377" y="2941.0" />
+      <point x="1264.565871628371" y="2941.0" />
+      <point x="1264.565871628371" y="2684.0" />
+      <point x="1185.9784314759315" y="2684.0" />
+      <point x="-70.25" y="113.0" />
+    </edge>
+    <edge source="Review" target="Author">
+      <point x="33.583333333333485" y="-137.0" />
+      <point x="245.58333333333348" y="1911.0" />
+      <point x="217.5" y="1911.0" />
+      <point x="217.5" y="1557.0" />
+      <point x="312.20833333333326" y="1557.0" />
+      <point x="-68.0" y="137.0" />
+    </edge>
+    <edge source="TestIt" target="LinkedDocumentCollection">
+      <point x="74.16666666666663" y="-28.0" />
+      <point x="506.286109723609" y="2704.0" />
+      <point x="1558.7284314759315" y="2704.0" />
+      <point x="1558.7284314759315" y="2348.0" />
+      <point x="1550.8438160913163" y="2348.0" />
+      <point x="0.0" y="148.5" />
+    </edge>
+    <edge source="WebserverThread" target="HttpMethod">
+      <point x="-23.458333333333258" y="-40.5" />
+      <point x="2670.631918775669" y="2258.0" />
+      <point x="2548.220448486699" y="2258.0" />
+      <point x="2548.220448486699" y="1911.0" />
+      <point x="2556.220448486699" y="1911.0" />
+      <point x="-80.0" y="40.0" />
+    </edge>
+    <edge source="WordCountsArray" target="WordCount">
+      <point x="-211.25" y="-148.5" />
+      <point x="1018.0676013338518" y="1150.0" />
+      <point x="928.2284314759315" y="1150.0" />
+      <point x="-81.0" y="125.0" />
+    </edge>
+    <edge source="WebserverThread" target="InvalidRequestException">
+      <point x="117.29166666666674" y="-40.5" />
+      <point x="2811.381918775669" y="2328.0" />
+      <point x="3136.970448486699" y="2328.0" />
+      <point x="120.25" y="76.0" />
+    </edge>
+    <edge source="Author" target="Terminal">
+      <point x="-113.33333333333326" y="-137.0" />
+      <point x="266.875" y="1150.0" />
+      <point x="381.1375223850225" y="1150.0" />
+      <point x="381.1375223850225" y="638.0" />
+      <point x="536.4463892126396" y="638.0" />
+      <point x="-48.0" y="304.0" />
+    </edge>
+    <edge source="TestIt" target="WordCountsArray">
+      <point x="-14.833333333333371" y="-28.0" />
+      <point x="417.286109723609" y="2704.0" />
+      <point x="434.9999999999998" y="2704.0" />
+      <point x="434.9999999999998" y="1911.0" />
+      <point x="1280.5961352998852" y="1911.0" />
+      <point x="1280.5961352998852" y="1557.0" />
+      <point x="1271.5676013338518" y="1557.0" />
+      <point x="42.25" y="148.5" />
+    </edge>
+    <edge source="DocumentCollection" target="DocumentCollectionCell">
+      <point x="-117.33333333333326" y="-221.0" />
+      <point x="0.0" y="77.0" />
+    </edge>
+    <edge source="WebserverThread" target="HttpStatus">
+      <point x="258.0416666666665" y="-40.5" />
+      <point x="2952.1319187756685" y="2358.0" />
+      <point x="3471.428781820032" y="2358.0" />
+      <point x="3471.428781820032" y="1911.0" />
+      <point x="3468.8871151533654" y="1911.0" />
+      <point x="76.66666666666674" y="64.5" />
+    </edge>
+    <edge source="WordCountsArray" target="DocumentCollection">
+      <point x="42.25" y="-148.5" />
+      <point x="1271.5676013338518" y="1180.0" />
+      <point x="1337.7818870481376" y="1180.0" />
+      <point x="-50.28571428571422" y="221.0" />
+    </edge>
+    <edge source="TestIt" target="Document">
+      <point x="-44.5" y="-28.0" />
+      <point x="387.6194430569424" y="2694.0" />
+      <point x="423.9999999999998" y="2694.0" />
+      <point x="423.9999999999998" y="1901.0" />
+      <point x="793.2803795278795" y="1901.0" />
+      <point x="-59.857142857142776" y="137.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8695187165775401" x="1971.0959409594097" y="2554.876998769988" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

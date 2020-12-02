@@ -142,7 +142,8 @@ public class Document {
      * @return a brief string representation of this document
      */
     public String toString() {
-        return this.title + " by " + this.author.toString();
+        return this.title + " by " +   // setTitle makes sure this.title is never null
+                (this.author != null ? this.author : "unknown");
     }
 
     /**

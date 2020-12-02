@@ -592,4 +592,19 @@ public class WordCountsArray {
 
         return scalarProduct;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder output = new StringBuilder();
+        output.append("[");
+        for (WordCount wc : this.wordCounts) {
+            if (wc != null)
+                output.append(wc).append(", ");
+        }
+
+        output.setLength(output.length() - 2);
+        output.append("]");
+
+        return output.toString();
+    }
 }
